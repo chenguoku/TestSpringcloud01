@@ -2,8 +2,10 @@ package com.hh.cloud.servicesimpleprovideruser;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
+@EnableEurekaClient
 public class ServiceSimpleProviderUserApplication {
 
 	public static void main(String[] args) {
