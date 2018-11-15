@@ -10,8 +10,11 @@
     <modules>
         <module>service-consumer-user</module>
         <module>service-consumer-user-Ribbon</module>
+        <module>service-consumer-user-ribbon-properties-costomizing</module>
+        <module>service-consumer-user-ribbon-without-eureka</module>
         <module>service-provider-user</module>
         <module>service-discovery-eureka</module>
+        
     </modules>
 
     <parent>
