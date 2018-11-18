@@ -1,8 +1,7 @@
-package com.hh.cloud.servicesimpleconsumeruser.Controller;
+package com.hh.cloud.servicesimpleconsumeruser.controller;
 
 import com.hh.cloud.servicesimpleconsumeruser.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
 import org.springframework.http.ResponseEntity;

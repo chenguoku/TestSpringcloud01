@@ -1,4 +1,4 @@
-package com.hh.cloud.servicesimpleconsumeruser.Controller;
+package com.hh.cloud.servicesimpleconsumeruser.controller;
 
 import com.hh.cloud.servicesimpleconsumeruser.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
