@@ -8,8 +8,6 @@ import feign.RequestLine;
 
 @FeignClient(name = "service-provider-user",configuration = MyConfiguraction.class)
 public interface UserFeginClient {
-
     @RequestLine("GET /simple/{id}")
     User findById(@Param("id") Long id);
-
 }
