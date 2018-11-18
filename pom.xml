@@ -10,6 +10,7 @@
     <modules>
         <module>service-consumer-user</module>
         <module>service-consumer-user-feign</module>
+        <module>service-consumer-user-feign-customizing</module>
         <module>service-consumer-user-Ribbon</module>
         <module>service-consumer-user-ribbon-properties-costomizing</module>
         <module>service-consumer-user-ribbon-without-eureka</module>
