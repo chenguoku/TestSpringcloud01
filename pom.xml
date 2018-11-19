@@ -16,6 +16,7 @@
         <module>service-consumer-user-ribbon-without-eureka</module>
         <module>service-provider-user</module>
         <module>service-discovery-eureka</module>
+        <module>service-discovery-eureka-ha</module>
         
     </modules>
 
