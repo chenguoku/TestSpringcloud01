@@ -12,6 +12,7 @@
         <module>service-consumer-user-feign</module>
         <module>service-consumer-user-feign-customizing</module>
         <module>service-consumer-user-Ribbon</module>
+        <module>service-consumer-user-ribbon-with-hystrix</module>
         <module>service-consumer-user-ribbon-properties-costomizing</module>
         <module>service-consumer-user-ribbon-without-eureka</module>
         <module>service-provider-user</module>
