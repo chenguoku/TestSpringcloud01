@@ -11,15 +11,18 @@
         <module>service-consumer-user</module>
         <module>service-consumer-user-feign</module>
         <module>service-consumer-user-feign-with-hystrix</module>
+        <module>service-consumer-user-feign-with-hystrix-factory</module>
         <module>service-consumer-user-feign-customizing</module>
+        <module>service-consumer-user-feign-customizing-without-hystrix</module>
         <module>service-consumer-user-Ribbon</module>
         <module>service-consumer-user-ribbon-with-hystrix</module>
         <module>service-consumer-user-ribbon-with-hystrix-propagation</module>
-        <module>service-consumer-user-ribbon-properties-costomizing</module>
         <module>service-consumer-user-ribbon-without-eureka</module>
         <module>service-provider-user</module>
         <module>service-discovery-eureka</module>
+        <module>service-discovery-eureka-hystrix-Turbine</module>
         <module>service-discovery-eureka-ha</module>
+        <module>service-gateway-zuul</module>
         
     </modules>
 
