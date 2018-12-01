@@ -23,6 +23,7 @@
         <module>service-discovery-eureka-hystrix-Turbine</module>
         <module>service-discovery-eureka-ha</module>
         <module>service-gateway-zuul</module>
+        <module>service-gateway-zuul-reg-exp</module>
         
     </modules>
 
