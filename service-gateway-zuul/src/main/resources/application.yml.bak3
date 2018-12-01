@@ -13,10 +13,4 @@ zuul:
   routes:
     abc:  #这个就是个节点  随便起名
       path: /user-url/**
-      serviceId: service-provider-user
-ribbon:
-  eureka:
-    enabled: false
-service-provider-user:    #这个是ribbon要请求的微服务
-  ribbon:
-    listOfServers: http://192.168.5.3:7900,http://192.168.5.3:7901
+      url: http://192.168.5.3:7900
