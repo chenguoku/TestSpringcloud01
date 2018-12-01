@@ -12,5 +12,5 @@ spring:
 zuul:
   routes:
     abc:  #这个就是个节点  随便起名
-      path: /user-url/**
-      serviceId: http://192.168.5.3:7900
+      path: /user/**
+      serviceId: service-provider-user
