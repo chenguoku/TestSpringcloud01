@@ -20,11 +20,15 @@
         <module>service-consumer-user-ribbon-without-eureka</module>
         <module>service-provider-user</module>
         <module>service-discovery-eureka</module>
+        <module>service-discovery-eureka-hystrix-dashBoard</module>
         <module>service-discovery-eureka-hystrix-Turbine</module>
         <module>service-discovery-eureka-ha</module>
         <module>service-gateway-zuul</module>
         <module>service-gateway-zuul-reg-exp</module>
-        
+        <module>service-gateway-zuul-fallback</module>
+        <module>service-file-upload</module>
+        <module>service-sidecar</module>
+        <module>service-gateway-zuul-filter</module>
     </modules>
 
     <parent>

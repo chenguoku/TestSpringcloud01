@@ -2,13 +2,14 @@ package com.hh.cloud.servicediscoveryeureka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
+import org.springframework.cloud.netflix.sidecar.EnableSidecar;
+import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 
 @SpringBootApplication
-@EnableHystrixDashboard
-public class ServiceDiscoveryEurekaApplication {
+@EnableSidecar
+public class sidecar {
 
     public static void main(String[] args) {
-        SpringApplication.run(ServiceDiscoveryEurekaApplication.class, args);
+        SpringApplication.run(sidecar.class, args);
     }
 }

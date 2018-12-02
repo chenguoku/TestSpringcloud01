@@ -14,9 +14,9 @@ zuul:
     abc:  #这个就是个节点  随便起名
       path: /user-url/**
       serviceId: service-provider-user
-  prefix: /api    #在访问zuul的地址前面 加上 /api
-  strip-prefix: true  # 默认是 true  如果是false 在微服务 的地址前面加 /api
-hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 60000
 ribbon:
-  ConnectTimeout: 3000
-  ReadTimeout: 60000
+  eureka:
+    enabled: false
+service-provider-user:    #这个是ribbon要请求的微服务
+  ribbon:
+    listOfServers: http://192.168.5.3:7900,http://192.168.5.3:7901

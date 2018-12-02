@@ -11,7 +11,7 @@ spring:
     schema: classpath:schema.sql
     data: classpath:data.sql
   application:
-    name: service-provider-user-v1
+    name: service-provider-user
 logging:
   level:
     root: INFO
