@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/service-config-client/service-config-client.iml" filepath="$PROJECT_DIR$/service-config-client/service-config-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-config-server/service-config-server.iml" filepath="$PROJECT_DIR$/service-config-server/service-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-config-server-encrypt/service-config-server-encrypt.iml" filepath="$PROJECT_DIR$/service-config-server-encrypt/service-config-server-encrypt.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-spring-cloud.iml" filepath="$PROJECT_DIR$/service-spring-cloud.iml" />
     </modules>
   </component>

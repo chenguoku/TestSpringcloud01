@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="service-config-client" />
         <module name="service-config-server" />
+        <module name="service-config-server-encrypt" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="service-config-client" target="1.8" />
       <module name="service-config-server" target="1.8" />
+      <module name="service-config-server-encrypt" target="1.8" />
       <module name="service-spring-cloud" target="1.6" />
     </bytecodeTargetLevel>
   </component>

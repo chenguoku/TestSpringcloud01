@@ -10,6 +10,7 @@
     <modules>
         <module>service-config-server</module>
         <module>service-config-client</module>
+        <module>service-config-server-encrypt</module>
     </modules>
 
     <parent>
