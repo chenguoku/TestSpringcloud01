@@ -5,4 +5,4 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/chenguoku/{application}
+          uri: https://git.oschina.net/it-much/config-repo-51cto-video
