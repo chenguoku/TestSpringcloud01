@@ -16,6 +16,7 @@
         <module>service-config-client-authc</module>
         <module>service-config-server-eureka</module>
         <module>service-config-client-eureka</module>
+        <module>service-config-client-refresh-bus</module>
     </modules>
 
     <parent>
